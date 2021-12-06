@@ -11,13 +11,13 @@ function createMenuItem(name, price, type) {
   return menuItem;
 }
 
-function addIngredients(topping1, ingredients) {
+function addIngredients(topping1, ingredient) {
   for (var i = 0; i < ingredients.length; i++ ) {
    if (ingredients[i] == topping1) {
    return
     }
   }
-return ingredients.push(topping1)
+return ingredient.push(topping1)
 
 }
 

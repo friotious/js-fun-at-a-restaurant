@@ -46,11 +46,12 @@ console.log(shouldOrderMore)
 // Express the following in code: If the variable "stockCount" is greater or equal to 1, log
 // the statement 'I'm going to eat some [food]!', otherwise, log the statement
 // 'We need to get some more [food].'
-// var stockCount = 0
-// if (stockCount >= 1) {
-//   console.log(`I'm going to eat some ${food}!`)
-// }
-// else {console.log(`We need some more ${food}.`)}
+var stockCount = 0
+if (stockCount >= 1) {
+  console.log(`I'm going to eat some ${food}!`)
+}
+else {console.log(`We need some more ${food}.`)
+}
 
 
 // Express the following in code: If the variable "isFavorite" is true,
@@ -74,14 +75,14 @@ var vegetables = ['pepper', 'cucumber', 'carrot', 'celery', 'kale']
 
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
-vegetables[2]
+console.log(vegetables[2])
 
 // Create a new variable "fruits" and assign it to an Array of 7
 // different fruits.
-var fruits =
+var fruits = ['apple', 'orange', 'banana', 'kiwi', 'grape']
 
 // Write the code to access the 5th element of the array, using bracket notation.
-
+console.log(fruits[4])
 
 //------------------------- Objects -------------------------//
 
@@ -92,7 +93,9 @@ var groceryStore = {
   name:'King Soopers',
   isOpen: true
 }
-groceryStore.location = 'denver, colorado'
+groceryStore.location = ('denver, colorado')
 
 // Write the code to add the key of location, with the value of 'Denver, Colorado'. Use dot
 // notation to do this. DO NOT modify your code from above.
+//groceryStore.location = 'Denver, Colorado'
+console.log(groceryStore)
